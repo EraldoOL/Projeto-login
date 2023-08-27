@@ -14,7 +14,7 @@ roxo #5f2c82
 }
 
 body, html{
-  background-color: #897E8F;
+      background-image: linear-gradient( 50deg, #000000 30%, #2400C2 , #5CD6FF);
   height: 100vh;
   width: 100vw;
 }
