@@ -42,7 +42,7 @@ main{
 
 #login > #img{
   display: block;
-  background: #5f2c82 url('floresta.jpg') no-repeat;
+  background: #5f2c82 url('images.jpeg') no-repeat;
   background-position: left bottom;
   height: 200px;
   background-size: cover;
@@ -62,7 +62,7 @@ main{
 
 #form > p{
   margin-bottom: 10px;
-  font-size: 1.2em;
+  font-size: 0.9em;
   
 }
 
