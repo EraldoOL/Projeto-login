@@ -107,7 +107,7 @@ form > input[type=submit]{
   border: 0px;
   border-radius: 8px;
   padding: 9px;
-  transform: translateY(-13.7px);
+  transform: translateY(-13.3px);
 }
 
 .campo > input:focus-within{
