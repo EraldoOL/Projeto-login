@@ -5,30 +5,31 @@ verde #49a09d
 roxo #5f2c82
 */
 
-*{
+* {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  
+
 }
 
-body, html{
-      background-image: linear-gradient( 50deg, #000000 30%, #2400C2 , #5CD6FF);
+body,
+html {
+  background-image: linear-gradient(50deg, #000000 30%, #2400C2, #5CD6FF);
   height: 100vh;
   width: 100vw;
 }
 
-main{
+main {
   position: relative;
   height: 100vh;
   width: 100vw;
 }
 
-#login{
+#login {
   position: absolute;
-  top:50%;
-  left:50%;
+  top: 50%;
+  left: 50%;
   background-color: white;
   width: 330px;
   height: 575px;
@@ -40,7 +41,7 @@ main{
   transform: translate(-50%, -50%);
 }
 
-#login > #img{
+#login>#img {
   display: block;
   background: #5f2c82 url('images.jpeg') no-repeat;
   background-position: left bottom;
@@ -48,25 +49,23 @@ main{
   background-size: cover;
 }
 
-#login > #form{
+#login>#form {
   display: block;
   padding: 10px;
 }
 
-#form > h1{
+#form>h1 {
   text-align: center;
   margin-bottom: 10px;
-  
-  
 }
 
-#form > p{
+#form>p {
   margin-bottom: 10px;
   font-size: 0.9em;
-  
+
 }
 
-form > .campo{
+form>.campo {
   background-color: #5f2c82;
   display: block;
   width: 100%;
@@ -76,32 +75,35 @@ form > .campo{
   border: 2px solid #5f2c82
 }
 
-.campo > label{
+.campo>label {
   display: none;
 }
 
-.campo > span{
+.campo>span {
   color: white;
- 
+
   font-size: 2em;
   width: 40px;
   padding: 5px;
 }
 
-form > input[type=submit]{
-  
+form>input[type=submit] {
+
   font-size: 1em;
   width: 100%;
   height: 40px;
-  border: .5px solid black;
-  color: black;
+  border: .5px solid #8753aa;
+  background-color: #5f2c82;
+  color: white;
   border-radius: 5px;
   cursor: pointer;
-  text-align: center
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
-.campo > input{
- 
+.campo>input {
+
   font-size: 1em;
   width: calc(100% - 45.1px);
   height: 95%;
@@ -109,19 +111,21 @@ form > input[type=submit]{
   border-radius: 8px;
   padding: 9px;
   transform: translateY(-13.6px);
+  outline: none;
 }
 
-.campo > input:focus-within{
+.campo>input:focus-within {
   background-color: white;
 }
 
-form > input[type=submit]:hover{
-  background-color: #F3D863;
-  
+form>input[type=submit]:hover {
+  background-color: #8753aa;
+  color: white;
+  text-transform: uppercase;
 }
 
-form > a.botao{
- 
+form>a.botao {
+
   display: block;
   font-size: 1em;
   width: 100%;
@@ -130,17 +134,19 @@ form > a.botao{
   padding-top: 5px;
   margin-top: 5px;
   border-radius: 7px;
- 
+  color: #5f2c82;
 }
 
-form > a.botao:hover{
-  background-color: #F3D863;
+form>a.botao:hover {
+  background-color: white;
 }
 
-form > a.botao > span{
-  font-size: .9em;
-}
-
-.botao{
+.botao {
   text-align: center
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #5f2c82;
+  font-weight: 800;
 }
